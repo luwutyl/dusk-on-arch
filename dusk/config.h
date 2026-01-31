@@ -366,14 +366,16 @@ static BarRule barrules[] = {
 	{ -1,       0,     0,         0,   0,   PWRL,  BAR_ALIGN_NONE,         size_wintitle_sticky,     draw_wintitle_sticky,    click_wintitle_sticky,    NULL,                     "wintitle_sticky" },
 	{ -1,       0,     SchemeUrg, 0,   0,   PWRL,  BAR_ALIGN_LEFT,         size_config_error,        draw_config_error,       NULL,                     NULL,                     "runtime config error" },
 	{ -1,       0,     0,         0,   0,   PWRL,  BAR_ALIGN_NONE,         size_flexwintitle,        draw_flexwintitle,       click_flexwintitle,       NULL,                     "flexwintitle" },
-//	{ -1,       1,     0,         0,   0,   PWRL,  BAR_ALIGN_CENTER,       size_pwrl_ifhidfloat,     draw_powerline,          NULL,                     NULL,                     "powerline join" },
+	{ -1,       1,     0,         0,   0,   PWRL,  BAR_ALIGN_CENTER,       size_pwrl_ifhidfloat,     draw_powerline,          NULL,                     NULL,                     "powerline join" },
 	{ -1,       1,     0,         5,   5,   2,     BAR_ALIGN_CENTER,       size_status,              draw_status,             click_status,             NULL,                     "status2" },
 	{ -1,       1,     0,         5,   5,   5,     BAR_ALIGN_LEFT_RIGHT,        size_status,              draw_status,             click_status,             NULL,                     "status5" },
 	{ -1,       1,     0,         5,   5,   6,     BAR_ALIGN_RIGHT_LEFT,        size_status,              draw_status,             click_status,             NULL,                     "status6" },
   { -1,       1,     0,         0,   0,   PWBL,  BAR_ALIGN_RIGHT_LEFT,         size_powerline,           draw_powerline,          NULL,                     NULL,                     "powerline join" },
 	{ -1,       1,     0,         0,   0,   PWBL,  BAR_ALIGN_RIGHT_RIGHT,  size_wintitle_hidden,     draw_wintitle_hidden,    click_wintitle_hidden,    NULL,                     "wintitle_hidden" },
  	{ -1,       1,     0,         0,   0,   PWRL,  BAR_ALIGN_RIGHT,        size_powerline,           draw_powerline,          NULL,                     NULL,                     "powerline join" }, 
-	{ -1,       1,     0,         0,   0,   PWBL,  BAR_ALIGN_LEFT_LEFT,    size_wintitle_floating,   draw_wintitle_floating,  click_wintitle_floating,  NULL,                     "wintitle_floating" },
+	{ -1,       1,     0,         0,   0,   PWRL,  BAR_ALIGN_LEFT,         size_powerline,           draw_powerline,          NULL,                     NULL,                     "powerline join" },
+	{ -1,       1,     0,         0,   0,   PWRL,  BAR_ALIGN_LEFT_LEFT,    size_wintitle_floating,   draw_wintitle_floating,  click_wintitle_floating,  NULL,                     "wintitle_floating" },
+	{ -1,       1,     0,         0,   0,   PWRL,  BAR_ALIGN_LEFT,         size_powerline,           draw_powerline,          NULL,                     NULL,                     "powerline join" },
 };
 
 /* Workspace rules define what workspaces are available and their properties.
