@@ -532,7 +532,16 @@ static Key keys[] = {
 
   { KeyPress, MODKEY|Alt,                     XK_space,        spawn,                SHCMD("playerctl play-pause") },
   { KeyPress, MODKEY|Alt,                     XK_l,            spawn,                SHCMD("/home/uwuty/.dotfiles/.i3lock-color.sh") },
-
+/*
+  { KeyPress, MODKEY|Ctrl|Alt,                XK_o,            spawn,                SHCMD("xdotool mousemove_relative 80 0") },
+  { KeyPress, MODKEY|Ctrl|Alt,                XK_y,            spawn,                SHCMD("xdotool mousemove_relative -- -80 0") },
+  { KeyPress, MODKEY|Ctrl|Alt,                XK_u,            spawn,                SHCMD("xdotool mousemove_relative 0 80") },
+  { KeyPress, MODKEY|Ctrl|Alt,                XK_i,            spawn,                SHCMD("xdotool mousemove_relative 0 -80") },
+  { KeyPress, MODKEY|Ctrl|Alt,                XK_l,            spawn,                SHCMD("xdotool mousemove_relative 10 0") },
+  { KeyPress, MODKEY|Ctrl|Alt,                XK_h,            spawn,                SHCMD("xdotool mousemove_relative -- -10 0") },
+  { KeyPress, MODKEY|Ctrl|Alt,                XK_j,            spawn,                SHCMD("xdotool mousemove_relative 0 10") },
+  { KeyPress, MODKEY|Ctrl|Alt,                XK_k,            spawn,                SHCMD("xdotool mousemove_relative 0 -10") },
+*/
 
   { KeyPress, MODKEY|Alt,                   XK_c,            spawn,                CMD("clipmenu") },       //clipboard buffer dmenu
                                                                                              
