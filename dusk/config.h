@@ -248,6 +248,7 @@ static Rule clientrules[] = {
   	{ .class = "Sxiv", .flags = Floating|Centered },
   	{ .class = "mpv", .flags = Floating|Centered },
 	{ .class = "Google-chrome", .role = "GtkFileChooserDialog", .floatpos = "50% 50%", .flags = AlwaysOnTop|Floating },
+  { .class = "dolphin", .flags = Floating|Centered, .floatpos = "50% 50% 92% 90%" },
 	{ .role = "pop-up", .flags = AlwaysOnTop|Floating|Centered },
 	{ .role = "browser", .workspace = "8", .flags = AttachBelow|OnlyModButtons|SwitchWorkspace },
 	{ .class = "Gnome-terminal", .role = "gnome-terminal-preferences", .flags = Centered },
