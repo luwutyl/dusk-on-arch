@@ -530,6 +530,10 @@ static Key keys[] = {
   { KeyPress, MODKEY|Alt,                     XK_u,            spawn,                SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -1%") },
   { KeyPress, MODKEY|Alt,                     XK_j,            spawn,                SHCMD("playerctl previous") },
 
+  { KeyPress, MODKEY|Alt,                     XK_c,            spawn,                SHCMD("xrandr --output HDMI-A-0 --brightness $(xrandr --verbose | grep -A 10 'HDMI-A-0' | grep 'Brightness' | awk '{print $2 + 0.1}') --output HDMI-A-1 --brightness $(xrandr --verbose | grep -A 10 'HDMI-A-1' | grep 'Brightness' | awk '{print $2 + 0.1}')") },
+  { KeyPress, MODKEY|Alt,                     XK_x,            spawn,                SHCMD("xrandr --output HDMI-A-0 --brightness $(xrandr --verbose | grep -A 10 'HDMI-A-0' | grep 'Brightness' | awk '{print $2 - 0.1}') --output HDMI-A-1 --brightness $(xrandr --verbose | grep -A 10 'HDMI-A-1' | grep 'Brightness' | awk '{print $2 - 0.1}')") },
+  { KeyPress, MODKEY|Alt,                     XK_v,            spawn,                SHCMD("xrandr --output HDMI-A-0 --brightness 1 --output HDMI-A-1 --brightness 1") },
+
   { KeyPress, MODKEY|Alt,                     XK_space,        spawn,                SHCMD("playerctl play-pause") },
   { KeyPress, MODKEY|Alt,                     XK_l,            spawn,                SHCMD("/home/uwuty/.dotfiles/.i3lock-color.sh") },
 /*
@@ -543,7 +547,6 @@ static Key keys[] = {
   { KeyPress, MODKEY|Ctrl|Alt,                XK_k,            spawn,                SHCMD("xdotool mousemove_relative 0 -10") },
 */
 
-  { KeyPress, MODKEY|Alt,                   XK_c,            spawn,                CMD("clipmenu") },       //clipboard buffer dmenu
                                                                                              
 
 	{ KeyPress,   MODKEY,                       XK_j,            focusstack,             {.i = +1 } }, // focus on the next client in the stack
