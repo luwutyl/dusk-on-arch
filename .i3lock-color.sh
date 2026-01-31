@@ -6,7 +6,7 @@ IMAGE=/tmp/screen_lock.png
 # 1. Делаем скриншот через Flameshot
 # -f (full) — полный экран, -p — путь сохранения
 #flameshot full -p $IMAGE
-scrot $IMAGE
+#scrot $IMAGE
 
 # 2. Обработка изображения через ImageMagick (convert)
 # -blur 0x8: 0 — радиус, 8 — сигма (интенсивность размытия)

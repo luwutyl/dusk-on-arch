@@ -133,7 +133,7 @@ static int flexwintitle_floatweight      = 0;  // floating window title weight, 
 static int flexwintitle_separator        = 0;  // width of client separator
 
 static const char *fonts[]               = { "AnonymicePro Nerd Font:size=13" };
-static       char dmenufont[60]          = "AnonymicePro Nerd Font:size=13";
+static       char dmenufont[60]          = "AnonymicePro Nerd Font:size=12";
 
 static char dmenunormfgcolor[] = "#61afef";
 static char dmenunormbgcolor[] = "#2e323a";
