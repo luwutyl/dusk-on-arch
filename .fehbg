@@ -1,0 +1,4 @@
+#!/bin/sh
+#feh --no-fehbg --bg-fill '/home/uwuty/data/normalniy_foto/wallpaper/images/light/0075.png'
+#feh --no-fehbg --bg-fill '/home/uwuty/data/normalniy_foto/wallpaper/images/dark/0118.jpg'
+feh --no-fehbg --bg-fill '/home/uwuty/data/normalniy_foto/wallpaper/images/dark/0393.jpg'
