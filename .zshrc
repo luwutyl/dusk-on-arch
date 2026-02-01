@@ -117,6 +117,7 @@ alias ls="lsd"
 alias f='fastfetch'
 alias upmirror='sudo reflector --country Russia --protocol https --sort rate --latest 25 --verbose --save /etc/pacman.d/mirrorlist'
 alias cmatrix='cmatrix -ba -u 2 -C cyan'
+alias neo-matrix='neo-matrix --color cyan -f 60'
 #alias df="duf"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
