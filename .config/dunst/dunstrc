@@ -4,7 +4,7 @@
 frame_color = "#8caaee"
 separator_color= frame
 highlight = "#8caaee"
-font = AdwaitaMono Nerd Font 9
+font = AdwaitaMono Nerd Font 13
 corner_radius = 12
 offset = (10, 37)
 

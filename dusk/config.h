@@ -179,7 +179,7 @@ static const char *const autostart[] = {
     "v2rayN", NULL,
     "slstatus", NULL,
     "picom", NULL,
-    "dunst", NULL,
+    "mako", NULL,
     "numlockx", NULL,
     "sh", "-c", "/home/uwuty/.screenlayout/default.sh", NULL,
     "sh", "-c", "/home/uwuty/.fehbg", NULL,
@@ -534,6 +534,7 @@ static Key keys[] = {
   { KeyPress, MODKEY|Alt,                     XK_i,            spawn,                SHCMD("~/.dotfiles/.dunst-vol.sh") },
   { KeyPress, MODKEY|Alt|Ctrl,                     XK_u,            spawn,                SHCMD("~/.dotfiles/.dunst-vol.sh") },
   { KeyPress, MODKEY|Alt|Ctrl,                     XK_i,            spawn,                SHCMD("~/.dotfiles/.dunst-vol.sh") },
+  { KeyPress, MODKEY|Alt,                          XK_o,            spawn,                SHCMD("~/.dotfiles/.metadata.sh") },
 
   { KeyPress, MODKEY|Alt,                     XK_c,            spawn,                SHCMD("xrandr --output HDMI-A-0 --brightness $(xrandr --verbose | grep -A 10 'HDMI-A-0' | grep 'Brightness' | awk '{print $2 + 0.1}') --output HDMI-A-1 --brightness $(xrandr --verbose | grep -A 10 'HDMI-A-1' | grep 'Brightness' | awk '{print $2 + 0.1}')") },
   { KeyPress, MODKEY|Alt,                     XK_x,            spawn,                SHCMD("xrandr --output HDMI-A-0 --brightness $(xrandr --verbose | grep -A 10 'HDMI-A-0' | grep 'Brightness' | awk '{print $2 - 0.1}') --output HDMI-A-1 --brightness $(xrandr --verbose | grep -A 10 'HDMI-A-1' | grep 'Brightness' | awk '{print $2 - 0.1}')") },
