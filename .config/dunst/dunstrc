@@ -1,0 +1,28 @@
+# See dunst(5) for all configuration options
+
+[global]
+frame_color = "#8caaee"
+separator_color= frame
+highlight = "#8caaee"
+font = AdwaitaMono Nerd Font 11
+corner_radius = 12
+offset = (10, 37)
+origin = top-center
+
+
+[urgency_low]
+background = "#303446"
+foreground = "#c6d0f5"
+timeout = 15
+
+[urgency_normal]
+background = "#303446"
+foreground = "#c6d0f5"
+timeout = 15
+
+[urgency_critical]
+background = "#303446"
+foreground = "#c6d0f5"
+frame_color = "#ef9f76"
+timeout = 30
+
